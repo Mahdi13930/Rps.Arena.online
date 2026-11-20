@@ -1,0 +1,13 @@
+{
+  "name": "rps-arena-online1",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Anonymous real-time Rock Paper Scissors multiplayer on Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
