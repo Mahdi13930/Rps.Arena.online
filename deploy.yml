@@ -1,4 +1,4 @@
-name: Deploy RPS Arena Online 1
+name: Deploy RPS Arena Online 3
 on:
   push:
     branches: [main]
@@ -17,6 +17,4 @@ jobs:
         run: npm install
       - name: Deploy Worker
         run: npx wrangler deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        
